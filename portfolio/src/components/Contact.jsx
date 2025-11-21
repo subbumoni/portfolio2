@@ -173,7 +173,7 @@ const Contact = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "http://localhost:5001/api/contact",
+        "https://portfolio2-backend-n4ji.onrender.com/api/contact",
         formData
       );
       if (res.data.success) {
